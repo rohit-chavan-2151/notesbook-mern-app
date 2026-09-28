@@ -7,5 +7,5 @@ app.get('/api/notes', (req, res) => {
 })
 
 app.listen(5005, () => {
-  console.log('Server has started!')
+  console.log('Server is listening on PORT 5005!')
 })
