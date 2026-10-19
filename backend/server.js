@@ -3,9 +3,9 @@ const express = require('express')
 const app = express()
 
 app.get('/api/notes', (req, res) => {
-  res.send('You have got 11 notes!')
+  res.send('You have got 17 notes!')
 })
 
 app.listen(5005, () => {
-  console.log('Server is listening on PORT 5005!')
+  console.log('Server is listening on PORT 5005!!!')
 })
